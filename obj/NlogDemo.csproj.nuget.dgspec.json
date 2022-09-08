@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\maddi\\iCloudDrive\\Documents\\Net Programming\\NlogDemo\\NlogDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\maddi\\iCloudDrive\\Documents\\Net Programming\\NlogDemo\\NlogDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\maddi\\iCloudDrive\\Documents\\Net Programming\\NlogDemo\\NlogDemo.csproj",
+        "projectName": "NlogDemo",
+        "projectPath": "C:\\Users\\maddi\\iCloudDrive\\Documents\\Net Programming\\NlogDemo\\NlogDemo.csproj",
+        "packagesPath": "C:\\Users\\maddi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maddi\\iCloudDrive\\Documents\\Net Programming\\NlogDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\maddi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
